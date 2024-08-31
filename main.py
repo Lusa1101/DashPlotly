@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 
 # Creating the connection string
 Driver = 'SQL Server'
-Server_Name = 'LAPTOP-HHQOVSI1\SQLEXPRESS'
+Server_Name = 'your-server-name'
 Database = 'AdventureWorks2016'
 
 connection_string = f'mssql+pyodbc://@{Server_Name}/{Database}?driver={Driver}'
